@@ -1,0 +1,3646 @@
+{
+  "id": "63b0b674-58f9-49a6-a64d-6fd2b917f470",
+  "version": "2.0",
+  "name": "PruebasSiforest",
+  "url": "https://siforest-production-0ade.up.railway.app/login",
+  "tests": [{
+    "id": "9325156c-0647-449c-9a1e-e74a7326a6c9",
+    "name": "login_fallido",
+    "commands": [{
+      "id": "607ad034-a7ea-4a94-a49e-b5f27e0c0209",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fe0514f-9f9c-4b16-b6e5-a5c2355c5d0f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c7fd0fc-1583-41a3-94e4-7cfd7cbb464b",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1108d642-8f86-478f-850d-b86089ccc897",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "hola"
+    }, {
+      "id": "f68d1d70-709d-4d47-90bd-60f387a796a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb0d057d-897b-4a1a-aa1c-95ba5b99b0da",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "12333418-c8ee-4cef-8024-3150b3e80fb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Iniciar Sesión']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "be59e0fe-93d2-430f-8fc6-460c6acfdefd",
+    "name": "login_correcto_admin",
+    "commands": [{
+      "id": "99c3617a-9ac2-453a-b1ac-0ed0a47e38f1",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "531256eb-5bd2-4d14-9867-822b89ca4770",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df7fb124-34b8-4750-94a2-baff9796e48b",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffbf7d88-6bd3-4308-a517-5ae74321d288",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "EL001"
+    }, {
+      "id": "f2640585-890d-4feb-a4da-b99b0482ee48",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "518e98fe-7123-4024-835d-b2bb31400dd1",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Siforest123"
+    }, {
+      "id": "93c00a72-3e9d-4b29-803b-64371769132c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Iniciar Sesión']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6650534e-4425-4cb0-9198-1506e8519c02",
+    "name": "login_correcto_usuario",
+    "commands": [{
+      "id": "c85ba768-c086-43ef-b46a-bf5dd14c1baa",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d127a70a-90f9-42c6-a688-e8dd01d58a0b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66474749-9bc6-4b78-9fb0-24a2c3587cf0",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f15604ff-c4b7-48f9-9372-b9c8f316284b",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "BI274"
+    }, {
+      "id": "42a4799c-dfe1-4326-a6ea-beefe9e6cded",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41496f73-976a-4180-919a-100de74e5421",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "rrPxQr9U"
+    }, {
+      "id": "2cdc135d-6972-4816-9948-52733d119492",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Iniciar Sesión']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a088876-be8d-4054-9200-1017547b8019",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/user/dashboard",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a0b4cc15-3750-4051-9c19-9a351dbcd0de",
+    "name": "subir_archivo_usuario",
+    "commands": [{
+      "id": "8eecd259-ba6e-4922-bf3b-dfd80883a11f",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/user/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "555d1589-166c-4a6c-b595-6f633cb3e80d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a79a1dcd-ae5c-4eef-a66e-275812556028",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Subir Nuevo Documento",
+      "targets": [
+        ["linkText=Subir Nuevo Documento", "linkText"],
+        ["css=.card-header > .btn", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Subir Nuevo Documento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44943846-6987-4dc9-baee-90ccc54fc98f",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//div[@id='uploadModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1d182f4-0e3b-4b81-a14a-0fc01d296500",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//div[@id='uploadModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "Prueba 8"
+    }, {
+      "id": "3f119498-fe64-4701-a945-1103ec36bb65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(3) > #descripcion",
+      "targets": [
+        ["css=.mb-3:nth-child(3) > #descripcion", "css:finder"],
+        ["xpath=(//textarea[@id='descripcion'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='uploadModal']/div/div/div[2]/form/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//form/div[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27255cc4-7cdc-498a-b9f3-0f16b06a53a6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mb-3:nth-child(3) > #descripcion",
+      "targets": [
+        ["css=.mb-3:nth-child(3) > #descripcion", "css:finder"],
+        ["xpath=(//textarea[@id='descripcion'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='uploadModal']/div/div/div[2]/form/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//form/div[2]/textarea", "xpath:position"]
+      ],
+      "value": "Ejemplo 8"
+    }, {
+      "id": "dc639713-a34e-423a-9caf-d7c5b10ffb16",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mb-3:nth-child(4) > #archivo",
+      "targets": [
+        ["css=.mb-3:nth-child(4) > #archivo", "css:finder"],
+        ["xpath=(//input[@id='archivo'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='uploadModal']/div/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": "C:\\Users\\User\\Downloads\\LABORATORIO III INGENIERIA DE SOFTWARE.pdf"
+    }, {
+      "id": "5b22213d-6857-4305-ab0a-0d75a687dbb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(5)",
+      "targets": [
+        ["css=.btn:nth-child(5)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='uploadModal']/div/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Subir Documento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3360fbc8-7273-4b62-b2ba-940d07bffddd",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) > td:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(7) > td:nth-child(1)", "css:finder"],
+        ["xpath=//tbody[@id='documentosTable']/tr[7]/td", "xpath:idRelative"],
+        ["xpath=//tr[7]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Prueba 7')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "404874d0-b969-41e0-a515-0ddd72b0db5b",
+    "name": "Gestión de Formularios - Envío de formularios",
+    "commands": [{
+      "id": "20c547cd-7c60-4109-adf5-e83d54f8b3fb",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/solicitudes",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c97626be-df4d-4e46-9182-aabbdd107edc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42a3df3d-d7cc-4339-8689-b7c5648b0ab6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Crear Formulario",
+      "targets": [
+        ["linkText=Crear Formulario", "linkText"],
+        ["css=.btn-primary:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/solicitudes/formulario')]", "xpath:href"],
+        ["xpath=//body/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Crear Formulario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e46e3f3-ac6e-470f-add0-0b5a0bb37eff",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/solicitudes/formulario",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "099d9743-996d-4f25-a49d-843a92ea7ff6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-10",
+      "targets": [
+        ["css=.col-md-10", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04913de4-e5ed-4e2e-9f61-be87958928c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=expediente_r",
+      "targets": [
+        ["id=expediente_r", "id"],
+        ["name=expediente_r", "name"],
+        ["css=#expediente_r", "css:finder"],
+        ["xpath=//input[@id='expediente_r']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9f1eef3-5148-4d09-8cc1-47095e75e32f",
+      "comment": "",
+      "command": "type",
+      "target": "id=expediente_r",
+      "targets": [
+        ["id=expediente_r", "id"],
+        ["name=expediente_r", "name"],
+        ["css=#expediente_r", "css:finder"],
+        ["xpath=//input[@id='expediente_r']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "6"
+    }, {
+      "id": "23427fba-a3e0-4e66-8043-d25f3c9a117a",
+      "comment": "",
+      "command": "click",
+      "target": "id=fecha_solicitud",
+      "targets": [
+        ["id=fecha_solicitud", "id"],
+        ["name=fecha_solicitud", "name"],
+        ["css=#fecha_solicitud", "css:finder"],
+        ["xpath=//input[@id='fecha_solicitud']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b77787eb-528a-4c35-8ecb-a469d12ef624",
+      "comment": "",
+      "command": "type",
+      "target": "id=fecha_solicitud",
+      "targets": [
+        ["id=fecha_solicitud", "id"],
+        ["name=fecha_solicitud", "name"],
+        ["css=#fecha_solicitud", "css:finder"],
+        ["xpath=//input[@id='fecha_solicitud']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2024-11-25"
+    }, {
+      "id": "18060fcd-3dcb-4f58-9a62-9699cefbac83",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4f82571-92c3-4a77-a5c2-718916addbec",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": "Alexa Guerrero Vicente"
+    }, {
+      "id": "a5f11e9d-4d73-4319-8325-9f11f3b4a3ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=nit",
+      "targets": [
+        ["id=nit", "id"],
+        ["name=nit", "name"],
+        ["css=#nit", "css:finder"],
+        ["xpath=//input[@id='nit']", "xpath:attributes"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1868bec4-4e52-4f47-88ad-229c27ab21fd",
+      "comment": "",
+      "command": "type",
+      "target": "id=nit",
+      "targets": [
+        ["id=nit", "id"],
+        ["name=nit", "name"],
+        ["css=#nit", "css:finder"],
+        ["xpath=//input[@id='nit']", "xpath:attributes"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1217-200993-098-2"
+    }, {
+      "id": "7c7110a4-6cc7-43ba-b6c3-c66f84dbd046",
+      "comment": "",
+      "command": "click",
+      "target": "id=dui",
+      "targets": [
+        ["id=dui", "id"],
+        ["name=dui", "name"],
+        ["css=#dui", "css:finder"],
+        ["xpath=//input[@id='dui']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6da386c3-ebb4-4460-9307-5d5813a1666d",
+      "comment": "",
+      "command": "type",
+      "target": "id=dui",
+      "targets": [
+        ["id=dui", "id"],
+        ["name=dui", "name"],
+        ["css=#dui", "css:finder"],
+        ["xpath=//input[@id='dui']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "05074078-5"
+    }, {
+      "id": "a583f966-6ea3-4a97-aed8-91c4a629498a",
+      "comment": "",
+      "command": "click",
+      "target": "id=emitido_en",
+      "targets": [
+        ["id=emitido_en", "id"],
+        ["name=emitido_en", "name"],
+        ["css=#emitido_en", "css:finder"],
+        ["xpath=//input[@id='emitido_en']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e0bb9f1-7d30-4ee0-950f-4254ac2a77ec",
+      "comment": "",
+      "command": "type",
+      "target": "id=emitido_en",
+      "targets": [
+        ["id=emitido_en", "id"],
+        ["name=emitido_en", "name"],
+        ["css=#emitido_en", "css:finder"],
+        ["xpath=//input[@id='emitido_en']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "San Miguel"
+    }, {
+      "id": "bc837b4f-0bdd-4cbe-9b21-936d6a9c45a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=fecha_emision",
+      "targets": [
+        ["id=fecha_emision", "id"],
+        ["name=fecha_emision", "name"],
+        ["css=#fecha_emision", "css:finder"],
+        ["xpath=//input[@id='fecha_emision']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f6d3e48-70d3-4907-8c58-385928c67709",
+      "comment": "",
+      "command": "type",
+      "target": "id=fecha_emision",
+      "targets": [
+        ["id=fecha_emision", "id"],
+        ["name=fecha_emision", "name"],
+        ["css=#fecha_emision", "css:finder"],
+        ["xpath=//input[@id='fecha_emision']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "1993-09-20"
+    }, {
+      "id": "b359a33a-0030-4b7f-9c23-614dfb44f192",
+      "comment": "",
+      "command": "click",
+      "target": "id=departamento_solicitante",
+      "targets": [
+        ["id=departamento_solicitante", "id"],
+        ["name=departamento_solicitante", "name"],
+        ["css=#departamento_solicitante", "css:finder"],
+        ["xpath=//select[@id='departamento_solicitante']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc7b8b4b-d2fc-4294-9602-a131cb23ea08",
+      "comment": "",
+      "command": "select",
+      "target": "id=departamento_solicitante",
+      "targets": [],
+      "value": "label=San Miguel"
+    }, {
+      "id": "62490129-439c-483e-8347-426fc5875b90",
+      "comment": "",
+      "command": "click",
+      "target": "id=municipio_solicitante",
+      "targets": [
+        ["id=municipio_solicitante", "id"],
+        ["name=municipio_solicitante", "name"],
+        ["css=#municipio_solicitante", "css:finder"],
+        ["xpath=//select[@id='municipio_solicitante']", "xpath:attributes"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57073c79-43ad-421f-8994-7eeed24a67af",
+      "comment": "",
+      "command": "select",
+      "target": "id=municipio_solicitante",
+      "targets": [],
+      "value": "label=Moncagua"
+    }, {
+      "id": "3cb5aa48-7763-4531-ba1a-4668308fc242",
+      "comment": "",
+      "command": "click",
+      "target": "id=canton",
+      "targets": [
+        ["id=canton", "id"],
+        ["name=canton", "name"],
+        ["css=#canton", "css:finder"],
+        ["xpath=//input[@id='canton']", "xpath:attributes"],
+        ["xpath=//div[3]/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d96f04c-f51f-496c-8558-48e2f3809dc9",
+      "comment": "",
+      "command": "type",
+      "target": "id=canton",
+      "targets": [
+        ["id=canton", "id"],
+        ["name=canton", "name"],
+        ["css=#canton", "css:finder"],
+        ["xpath=//input[@id='canton']", "xpath:attributes"],
+        ["xpath=//div[3]/div[3]/input", "xpath:position"]
+      ],
+      "value": "Lomitas"
+    }, {
+      "id": "abf10a3e-645f-489d-b3a0-c1035502ef11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-row:nth-child(5)",
+      "targets": [
+        ["css=.form-row:nth-child(5)", "css:finder"],
+        ["xpath=//fieldset/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89e3e92d-ff43-45c0-9d9d-0a5054a7e5e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "642ac772-039a-483e-9ea4-e707a02c7969",
+      "comment": "",
+      "command": "click",
+      "target": "id=acceso",
+      "targets": [
+        ["id=acceso", "id"],
+        ["name=acceso", "name"],
+        ["css=.form-group:nth-child(8) > #acceso", "css:finder"],
+        ["xpath=//input[@id='acceso']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b1230f9-85d3-463e-a2f3-9865da3b78ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=acceso",
+      "targets": [
+        ["id=acceso", "id"],
+        ["name=acceso", "name"],
+        ["css=.form-group:nth-child(8) > #acceso", "css:finder"],
+        ["xpath=//input[@id='acceso']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "195e19fe-22c1-430e-900c-56b2455384ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=acceso",
+      "targets": [
+        ["id=acceso", "id"],
+        ["name=acceso", "name"],
+        ["css=.form-group:nth-child(8) > #acceso", "css:finder"],
+        ["xpath=//input[@id='acceso']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Entrada principal"
+    }, {
+      "id": "d410a169-1911-422c-a906-606381fbf5be",
+      "comment": "",
+      "command": "click",
+      "target": "id=direccion",
+      "targets": [
+        ["id=direccion", "id"],
+        ["name=direccion", "name"],
+        ["css=#direccion", "css:finder"],
+        ["xpath=//input[@id='direccion']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1854c7d-ae6c-48cd-a9d4-2f1a389bfe64",
+      "comment": "",
+      "command": "type",
+      "target": "id=direccion",
+      "targets": [
+        ["id=direccion", "id"],
+        ["name=direccion", "name"],
+        ["css=#direccion", "css:finder"],
+        ["xpath=//input[@id='direccion']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "Moncagua, San Miguel Centro"
+    }, {
+      "id": "607f1311-beb9-4ca8-94f7-825f117f1953",
+      "comment": "",
+      "command": "click",
+      "target": "id=telefono_fijo",
+      "targets": [
+        ["id=telefono_fijo", "id"],
+        ["name=telefono_fijo", "name"],
+        ["css=#telefono_fijo", "css:finder"],
+        ["xpath=//input[@id='telefono_fijo']", "xpath:attributes"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41934da3-e658-4028-aab6-dd45d318561e",
+      "comment": "",
+      "command": "type",
+      "target": "id=telefono_fijo",
+      "targets": [
+        ["id=telefono_fijo", "id"],
+        ["name=telefono_fijo", "name"],
+        ["css=#telefono_fijo", "css:finder"],
+        ["xpath=//input[@id='telefono_fijo']", "xpath:attributes"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "29847982"
+    }, {
+      "id": "6bfb78d9-4644-4d68-910a-a1639c0a1042",
+      "comment": "",
+      "command": "click",
+      "target": "id=celular",
+      "targets": [
+        ["id=celular", "id"],
+        ["name=celular", "name"],
+        ["css=#celular", "css:finder"],
+        ["xpath=//input[@id='celular']", "xpath:attributes"],
+        ["xpath=//div[7]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e6c388a-4be7-4362-bfae-143f322be6ea",
+      "comment": "",
+      "command": "type",
+      "target": "id=celular",
+      "targets": [
+        ["id=celular", "id"],
+        ["name=celular", "name"],
+        ["css=#celular", "css:finder"],
+        ["xpath=//input[@id='celular']", "xpath:attributes"],
+        ["xpath=//div[7]/div[2]/input", "xpath:position"]
+      ],
+      "value": "72552913"
+    }, {
+      "id": "d194b339-af88-4c34-9a20-4c0c9c4edda5",
+      "comment": "",
+      "command": "click",
+      "target": "id=correo",
+      "targets": [
+        ["id=correo", "id"],
+        ["name=correo", "name"],
+        ["css=#correo", "css:finder"],
+        ["xpath=//input[@id='correo']", "xpath:attributes"],
+        ["xpath=//div[7]/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06006de8-9dda-4bec-87c7-a9743ad9d426",
+      "comment": "",
+      "command": "type",
+      "target": "id=correo",
+      "targets": [
+        ["id=correo", "id"],
+        ["name=correo", "name"],
+        ["css=#correo", "css:finder"],
+        ["xpath=//input[@id='correo']", "xpath:attributes"],
+        ["xpath=//div[7]/div[3]/input", "xpath:position"]
+      ],
+      "value": "allison_guerrero@gmail.com"
+    }, {
+      "id": "898d6d8f-565b-4f8b-962b-936e5b7b33a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=especie",
+      "targets": [
+        ["id=especie", "id"],
+        ["name=especie", "name"],
+        ["css=#especie", "css:finder"],
+        ["xpath=//input[@id='especie']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "943eebe6-a77f-4b25-b680-ef028f1bc682",
+      "comment": "",
+      "command": "type",
+      "target": "id=especie",
+      "targets": [
+        ["id=especie", "id"],
+        ["name=especie", "name"],
+        ["css=#especie", "css:finder"],
+        ["xpath=//input[@id='especie']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Limonero"
+    }, {
+      "id": "53161569-fd7e-4b73-ba05-1480bb40021b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cantidad",
+      "targets": [
+        ["id=cantidad", "id"],
+        ["name=cantidad", "name"],
+        ["css=#cantidad", "css:finder"],
+        ["xpath=//input[@id='cantidad']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "643a1ed9-2b22-415c-a046-59009098bffd",
+      "comment": "",
+      "command": "type",
+      "target": "id=cantidad",
+      "targets": [
+        ["id=cantidad", "id"],
+        ["name=cantidad", "name"],
+        ["css=#cantidad", "css:finder"],
+        ["xpath=//input[@id='cantidad']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "5fd2c2dc-96a1-41d1-a2af-cc257789b1fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border > p",
+      "targets": [
+        ["css=.border > p", "css:finder"],
+        ["xpath=//fieldset[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'*Si son más especies, completar el siguiente cuadro.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac06898f-4c3f-4cab-96f3-5dd97415f722",
+      "comment": "",
+      "command": "click",
+      "target": "id=total",
+      "targets": [
+        ["id=total", "id"],
+        ["name=total", "name"],
+        ["css=#total", "css:finder"],
+        ["xpath=//input[@id='total']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d1eb291-ea46-4a63-9661-7efbdf6864e7",
+      "comment": "",
+      "command": "type",
+      "target": "id=total",
+      "targets": [
+        ["id=total", "id"],
+        ["name=total", "name"],
+        ["css=#total", "css:finder"],
+        ["xpath=//input[@id='total']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "3c7e3dd6-7998-4424-a07e-f1d7f2fd67c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border:nth-child(5) > .form-row",
+      "targets": [
+        ["css=.border:nth-child(5) > .form-row", "css:finder"],
+        ["xpath=//fieldset[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34711737-944f-4e52-b1d8-e3f8d41d633e",
+      "comment": "",
+      "command": "click",
+      "target": "id=departamento_propiedad",
+      "targets": [
+        ["id=departamento_propiedad", "id"],
+        ["name=departamento_propiedad", "name"],
+        ["css=#departamento_propiedad", "css:finder"],
+        ["xpath=//select[@id='departamento_propiedad']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc93eb48-62ff-4f76-b70f-1cb750f7b1c1",
+      "comment": "",
+      "command": "select",
+      "target": "id=departamento_propiedad",
+      "targets": [],
+      "value": "label=San Miguel"
+    }, {
+      "id": "6fbfd6b6-5b9f-41e8-9f03-8bf26370de22",
+      "comment": "",
+      "command": "click",
+      "target": "id=municipio_propiedad",
+      "targets": [
+        ["id=municipio_propiedad", "id"],
+        ["name=municipio_propiedad", "name"],
+        ["css=#municipio_propiedad", "css:finder"],
+        ["xpath=//select[@id='municipio_propiedad']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3d6afe8-2d21-4c90-9b40-c44106567c9b",
+      "comment": "",
+      "command": "select",
+      "target": "id=municipio_propiedad",
+      "targets": [],
+      "value": "label=Moncagua"
+    }, {
+      "id": "84632eb7-29db-4994-919b-c8621690d3c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=canton_prop",
+      "targets": [
+        ["id=canton_prop", "id"],
+        ["name=canton_prop", "name"],
+        ["css=#canton_prop", "css:finder"],
+        ["xpath=//input[@id='canton_prop']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e9fe36c-0121-47da-b406-83d51ff4cf78",
+      "comment": "",
+      "command": "type",
+      "target": "id=canton_prop",
+      "targets": [
+        ["id=canton_prop", "id"],
+        ["name=canton_prop", "name"],
+        ["css=#canton_prop", "css:finder"],
+        ["xpath=//input[@id='canton_prop']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "Lomitas"
+    }, {
+      "id": "0f59c4f1-7d83-4a4a-8bf8-9cee41dbd911",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(3) > #acceso",
+      "targets": [
+        ["css=.form-group:nth-child(3) > #acceso", "css:finder"],
+        ["xpath=(//input[@id='acceso'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ee0a56a-3325-4e23-bbd8-971da389f9af",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(3) > #acceso",
+      "targets": [
+        ["css=.form-group:nth-child(3) > #acceso", "css:finder"],
+        ["xpath=(//input[@id='acceso'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Entrada principal"
+    }, {
+      "id": "399f141a-9102-46cd-9dca-1a982587c42e",
+      "comment": "",
+      "command": "click",
+      "target": "id=justificacion8",
+      "targets": [
+        ["id=justificacion8", "id"],
+        ["css=#justificacion8", "css:finder"],
+        ["xpath=//input[@id='justificacion8']", "xpath:attributes"],
+        ["xpath=//div/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab88f933-e5de-40b2-9379-6117bc3bb353",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar Solicitud')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78187c3e-2cf9-48da-abfb-ccc5fb9fce36",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=swal2-html-container",
+      "targets": [
+        ["id=swal2-html-container", "id"],
+        ["css=#swal2-html-container", "css:finder"],
+        ["xpath=//div[@id='swal2-html-container']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Solicitud enviada y está en revisión."
+    }]
+  }, {
+    "id": "adcb9fb8-e5cc-4429-b973-278553b68a0c",
+    "name": "Visualización de Estados - Estado de solicitudes",
+    "commands": [{
+      "id": "4a8af289-6392-42cf-a553-83bd2c914014",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/user/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0598c1b-c8c2-40b2-98b4-9f306c515960",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "485eb3f2-57d8-42e0-ae6e-a594bba4c949",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Solicitudes",
+      "targets": [
+        ["linkText=Solicitudes", "linkText"],
+        ["css=.me-2:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Solicitudes')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/solicitudes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Solicitudes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97c5520d-39f3-41c1-89b3-77535322db03",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/solicitudes",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c501d3e6-b816-44be-a5a7-72ae33dc8814",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=th:nth-child(6)",
+      "targets": [],
+      "value": "Estado"
+    }, {
+      "id": "edbfbd68-c997-47be-ab0c-237d53d63f8c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=tr:nth-child(1) .badge",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed3ac374-63d3-4eca-98e7-6dfd0ffac9b9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=tr:nth-child(2) .badge",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b7fbe753-b551-454d-a351-6c313d6ff817",
+    "name": "Mapas y Geolocalización - Visualización de ubicaciones",
+    "commands": [{
+      "id": "83ad8f5f-bf3e-40fe-b905-f27b70fe9904",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/admin/solicitudes/mapa",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61a87fc9-7e0f-40ea-b5fa-861c9f42c22a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a02ce1e-d39a-4790-bb0d-1794dc094634",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > span",
+      "targets": [
+        ["css=div:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='map']/div/div[4]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'9')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3d5cdb4-b1bd-4c1d-8708-fab0c506d1c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > span",
+      "targets": [
+        ["css=div:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='map']/div/div[4]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3484666c-3147-4060-acd7-a204e4e18315",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leaflet-marker-icon:nth-child(1)",
+      "targets": [
+        ["css=.leaflet-marker-icon:nth-child(1)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn-icons-png.flaticon.com/512/2211/2211986.png')]", "xpath:img"],
+        ["xpath=//div[@id='map']/div/div[4]/img", "xpath:idRelative"],
+        ["xpath=//div[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60fcf00c-740f-42c8-98fd-4e7ee256d72e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.leaflet-popup-content-wrapper",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c83be307-6e16-48b4-aed0-87b1c3c164b9",
+    "name": "Descarga de Formularios",
+    "commands": [{
+      "id": "c6871d92-7362-4908-962e-0bbae75303ee",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/admin/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b1114c9-7939-4e55-9349-6605cd2743e4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab749684-6e86-4b6a-b91c-ae777ed8279d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Documentos",
+      "targets": [
+        ["linkText=Documentos", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='sidebar']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/admin/documentos')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Documentos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68f26717-2901-4c19-bbc9-5b46fdccf744",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/admin/documentos",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fdc7945-a8b2-4cae-a432-50c9890f3232",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Descargar",
+      "targets": [
+        ["linkText=Descargar", "linkText"],
+        ["css=tr:nth-child(1) .btn-primary", "css:finder"],
+        ["xpath=//table[@id='documentosTable']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/documentos/9/download')]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Descargar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8aab2d71-8a4d-47b9-8f1d-7a37387a416c",
+    "name": "Pruebas de Integración - Caso 1",
+    "commands": [{
+      "id": "4b0a9749-357e-4bb5-8cf5-84d62e4e27c9",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "859d7138-05ed-49ee-ad35-9d06af874db8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1aea122-017b-434a-a397-1286de7554e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c4fa9e5-b7a1-4514-ab21-8af56d20274a",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "BI274"
+    }, {
+      "id": "eab18ec0-693f-4cbc-8bee-78a167d008dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa34e813-c615-4ed7-8669-39aec1245bcd",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "rrPxQr9U"
+    }, {
+      "id": "acc02a94-3824-48d9-9e68-89e2b9d52c02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Iniciar Sesión']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5391162a-eec6-459f-ac78-fbee652bf07a",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/user/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b532476-6798-4f41-a295-64834fe498f2",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Solicitudes",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "7d5ffad0-f13b-48bc-b894-32562306d55e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Solicitudes",
+      "targets": [
+        ["linkText=Solicitudes", "linkText"],
+        ["css=.me-2:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Solicitudes')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/solicitudes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Solicitudes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60149995-9bbd-4cf1-9a0f-a320739c6069",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/solicitudes",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21595ed6-54ee-483b-904c-a8aa3c176847",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Crear Formulario",
+      "targets": [
+        ["linkText=Crear Formulario", "linkText"],
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/solicitudes/formulario')]", "xpath:href"],
+        ["xpath=//body/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Crear Formulario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe87efec-4453-4feb-8efa-a9ce24320e95",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/solicitudes/formulario",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12ac05b9-3f21-4428-a9a6-0a9ea4a5a387",
+      "comment": "",
+      "command": "click",
+      "target": "id=expediente_r",
+      "targets": [
+        ["id=expediente_r", "id"],
+        ["name=expediente_r", "name"],
+        ["css=#expediente_r", "css:finder"],
+        ["xpath=//input[@id='expediente_r']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea767eaf-fb1a-4cdb-812f-6b12d778db21",
+      "comment": "",
+      "command": "type",
+      "target": "id=expediente_r",
+      "targets": [
+        ["id=expediente_r", "id"],
+        ["name=expediente_r", "name"],
+        ["css=#expediente_r", "css:finder"],
+        ["xpath=//input[@id='expediente_r']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "d3fdc123-7c26-4445-bb3d-5faccd82a50a",
+      "comment": "",
+      "command": "click",
+      "target": "id=fecha_solicitud",
+      "targets": [
+        ["id=fecha_solicitud", "id"],
+        ["name=fecha_solicitud", "name"],
+        ["css=#fecha_solicitud", "css:finder"],
+        ["xpath=//input[@id='fecha_solicitud']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fd3cd9e-398a-4cd7-bc20-d04930209299",
+      "comment": "",
+      "command": "type",
+      "target": "id=fecha_solicitud",
+      "targets": [
+        ["id=fecha_solicitud", "id"],
+        ["name=fecha_solicitud", "name"],
+        ["css=#fecha_solicitud", "css:finder"],
+        ["xpath=//input[@id='fecha_solicitud']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2024-11-26"
+    }, {
+      "id": "071cd2e5-21b8-449e-b02a-8116f801afc5",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "985303d4-d02b-4c2c-98ad-9de843f0b5bb",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": "Hans Zimmer"
+    }, {
+      "id": "9e1ba63d-7cfb-4cfa-b4e6-baa9c55b4c51",
+      "comment": "",
+      "command": "click",
+      "target": "id=nit",
+      "targets": [
+        ["id=nit", "id"],
+        ["name=nit", "name"],
+        ["css=#nit", "css:finder"],
+        ["xpath=//input[@id='nit']", "xpath:attributes"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "868caf52-bd30-4567-bb87-8841289cb153",
+      "comment": "",
+      "command": "type",
+      "target": "id=nit",
+      "targets": [
+        ["id=nit", "id"],
+        ["name=nit", "name"],
+        ["css=#nit", "css:finder"],
+        ["xpath=//input[@id='nit']", "xpath:attributes"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1217-200993-098-2"
+    }, {
+      "id": "2a004b7f-0911-4de3-bbcf-2994631a2d01",
+      "comment": "",
+      "command": "click",
+      "target": "id=dui",
+      "targets": [
+        ["id=dui", "id"],
+        ["name=dui", "name"],
+        ["css=#dui", "css:finder"],
+        ["xpath=//input[@id='dui']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1408ec6-c529-4fb4-9ee6-3a35074e46e7",
+      "comment": "",
+      "command": "type",
+      "target": "id=dui",
+      "targets": [
+        ["id=dui", "id"],
+        ["name=dui", "name"],
+        ["css=#dui", "css:finder"],
+        ["xpath=//input[@id='dui']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "64855423"
+    }, {
+      "id": "6e74d4d8-c17d-4b3e-aece-a89622acabd5",
+      "comment": "",
+      "command": "click",
+      "target": "id=emitido_en",
+      "targets": [
+        ["id=emitido_en", "id"],
+        ["name=emitido_en", "name"],
+        ["css=#emitido_en", "css:finder"],
+        ["xpath=//input[@id='emitido_en']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba686d8c-735f-4c9f-9e4c-0225c1171ac7",
+      "comment": "",
+      "command": "type",
+      "target": "id=emitido_en",
+      "targets": [
+        ["id=emitido_en", "id"],
+        ["name=emitido_en", "name"],
+        ["css=#emitido_en", "css:finder"],
+        ["xpath=//input[@id='emitido_en']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "San Miguel"
+    }, {
+      "id": "d01755fc-9a0b-461c-bfd1-b8fce30ce209",
+      "comment": "",
+      "command": "click",
+      "target": "id=fecha_emision",
+      "targets": [
+        ["id=fecha_emision", "id"],
+        ["name=fecha_emision", "name"],
+        ["css=#fecha_emision", "css:finder"],
+        ["xpath=//input[@id='fecha_emision']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b0545bc-a216-43a5-8df4-c5f008663fd2",
+      "comment": "",
+      "command": "type",
+      "target": "id=fecha_emision",
+      "targets": [
+        ["id=fecha_emision", "id"],
+        ["name=fecha_emision", "name"],
+        ["css=#fecha_emision", "css:finder"],
+        ["xpath=//input[@id='fecha_emision']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "2011-09-21"
+    }, {
+      "id": "8126e0fc-e21e-4b51-ae32-f99c78711b50",
+      "comment": "",
+      "command": "click",
+      "target": "id=departamento_solicitante",
+      "targets": [
+        ["id=departamento_solicitante", "id"],
+        ["name=departamento_solicitante", "name"],
+        ["css=#departamento_solicitante", "css:finder"],
+        ["xpath=//select[@id='departamento_solicitante']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e96da96a-bb45-4e02-ba25-083bf3e0d952",
+      "comment": "",
+      "command": "select",
+      "target": "id=departamento_solicitante",
+      "targets": [],
+      "value": "label=San Miguel"
+    }, {
+      "id": "21484759-4284-4a86-ba4e-65f05a9e3899",
+      "comment": "",
+      "command": "click",
+      "target": "id=municipio_solicitante",
+      "targets": [
+        ["id=municipio_solicitante", "id"],
+        ["name=municipio_solicitante", "name"],
+        ["css=#municipio_solicitante", "css:finder"],
+        ["xpath=//select[@id='municipio_solicitante']", "xpath:attributes"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d162ce9a-e4af-4732-8969-5cd3324ea8d3",
+      "comment": "",
+      "command": "select",
+      "target": "id=municipio_solicitante",
+      "targets": [],
+      "value": "label=San Miguel"
+    }, {
+      "id": "da842a21-f548-4579-9b08-b074386bfeb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c7b2d02-b0f5-47f6-bfc8-dccf3b6a9a3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swal2-container",
+      "targets": [
+        ["css=.swal2-container", "css:finder"],
+        ["xpath=//body/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d159b569-600b-4991-9b57-99c1036d2bae",
+      "comment": "",
+      "command": "click",
+      "target": "id=acceso",
+      "targets": [
+        ["id=acceso", "id"],
+        ["name=acceso", "name"],
+        ["css=.form-group:nth-child(8) > #acceso", "css:finder"],
+        ["xpath=//input[@id='acceso']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fd92b48-839a-41da-a880-3a05b8922d59",
+      "comment": "",
+      "command": "type",
+      "target": "id=acceso",
+      "targets": [
+        ["id=acceso", "id"],
+        ["name=acceso", "name"],
+        ["css=.form-group:nth-child(8) > #acceso", "css:finder"],
+        ["xpath=//input[@id='acceso']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Entrada principal"
+    }, {
+      "id": "7cd4221c-242f-4e36-a03a-7a11f6b9843d",
+      "comment": "",
+      "command": "click",
+      "target": "id=direccion",
+      "targets": [
+        ["id=direccion", "id"],
+        ["name=direccion", "name"],
+        ["css=#direccion", "css:finder"],
+        ["xpath=//input[@id='direccion']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7408c43-170c-43f4-bdf6-cd26033e6252",
+      "comment": "",
+      "command": "click",
+      "target": "id=direccion",
+      "targets": [
+        ["id=direccion", "id"],
+        ["name=direccion", "name"],
+        ["css=#direccion", "css:finder"],
+        ["xpath=//input[@id='direccion']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "357395fc-6d00-4edc-9608-66a06eb6b19b",
+      "comment": "",
+      "command": "click",
+      "target": "id=direccion",
+      "targets": [
+        ["id=direccion", "id"],
+        ["name=direccion", "name"],
+        ["css=#direccion", "css:finder"],
+        ["xpath=//input[@id='direccion']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4db7b58d-46c3-4ad7-8bd7-b8ada9dd36fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=direccion",
+      "targets": [
+        ["id=direccion", "id"],
+        ["name=direccion", "name"],
+        ["css=#direccion", "css:finder"],
+        ["xpath=//input[@id='direccion']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "Urb España, Pasaje 8,San Miguel, San Miguel Centro"
+    }, {
+      "id": "6d493fa6-f6e7-4527-aa7c-a297778e224a",
+      "comment": "",
+      "command": "click",
+      "target": "id=telefono_fijo",
+      "targets": [
+        ["id=telefono_fijo", "id"],
+        ["name=telefono_fijo", "name"],
+        ["css=#telefono_fijo", "css:finder"],
+        ["xpath=//input[@id='telefono_fijo']", "xpath:attributes"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5e35a96-c9fd-4b27-ae29-ae5be4555a90",
+      "comment": "",
+      "command": "type",
+      "target": "id=telefono_fijo",
+      "targets": [
+        ["id=telefono_fijo", "id"],
+        ["name=telefono_fijo", "name"],
+        ["css=#telefono_fijo", "css:finder"],
+        ["xpath=//input[@id='telefono_fijo']", "xpath:attributes"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "29847982"
+    }, {
+      "id": "9fa549d8-bb39-4b89-ab1b-c3595f70081b",
+      "comment": "",
+      "command": "click",
+      "target": "id=celular",
+      "targets": [
+        ["id=celular", "id"],
+        ["name=celular", "name"],
+        ["css=#celular", "css:finder"],
+        ["xpath=//input[@id='celular']", "xpath:attributes"],
+        ["xpath=//div[7]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ccab410-0953-4bb4-920b-c463c79544fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=celular",
+      "targets": [
+        ["id=celular", "id"],
+        ["name=celular", "name"],
+        ["css=#celular", "css:finder"],
+        ["xpath=//input[@id='celular']", "xpath:attributes"],
+        ["xpath=//div[7]/div[2]/input", "xpath:position"]
+      ],
+      "value": "72552913"
+    }, {
+      "id": "401edad5-b05e-4629-80bd-30c28c93394a",
+      "comment": "",
+      "command": "click",
+      "target": "id=correo",
+      "targets": [
+        ["id=correo", "id"],
+        ["name=correo", "name"],
+        ["css=#correo", "css:finder"],
+        ["xpath=//input[@id='correo']", "xpath:attributes"],
+        ["xpath=//div[7]/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2cc6f8e-4c21-44a4-9d86-62634bd7ab2e",
+      "comment": "",
+      "command": "type",
+      "target": "id=correo",
+      "targets": [
+        ["id=correo", "id"],
+        ["name=correo", "name"],
+        ["css=#correo", "css:finder"],
+        ["xpath=//input[@id='correo']", "xpath:attributes"],
+        ["xpath=//div[7]/div[3]/input", "xpath:position"]
+      ],
+      "value": "hanzimmer@gmail.com"
+    }, {
+      "id": "49c92019-de0e-4e13-bb89-b41dbcd3aab0",
+      "comment": "",
+      "command": "click",
+      "target": "id=especie",
+      "targets": [
+        ["id=especie", "id"],
+        ["name=especie", "name"],
+        ["css=#especie", "css:finder"],
+        ["xpath=//input[@id='especie']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c9f436-be38-4147-a66b-9c736f871c7c",
+      "comment": "",
+      "command": "type",
+      "target": "id=especie",
+      "targets": [
+        ["id=especie", "id"],
+        ["name=especie", "name"],
+        ["css=#especie", "css:finder"],
+        ["xpath=//input[@id='especie']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Limonero"
+    }, {
+      "id": "6c30df23-dc8d-4ed5-8c2c-292d61597cbb",
+      "comment": "",
+      "command": "click",
+      "target": "id=cantidad",
+      "targets": [
+        ["id=cantidad", "id"],
+        ["name=cantidad", "name"],
+        ["css=#cantidad", "css:finder"],
+        ["xpath=//input[@id='cantidad']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "057fbe0a-d2ff-45ae-bd3c-9dc2682e5b48",
+      "comment": "",
+      "command": "type",
+      "target": "id=cantidad",
+      "targets": [
+        ["id=cantidad", "id"],
+        ["name=cantidad", "name"],
+        ["css=#cantidad", "css:finder"],
+        ["xpath=//input[@id='cantidad']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "c0e2e8b0-1afa-4113-b2cc-0a003c1637ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=total",
+      "targets": [
+        ["id=total", "id"],
+        ["name=total", "name"],
+        ["css=#total", "css:finder"],
+        ["xpath=//input[@id='total']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fc88a84-959a-44ad-8c09-ad4ae0e09c8a",
+      "comment": "",
+      "command": "type",
+      "target": "id=total",
+      "targets": [
+        ["id=total", "id"],
+        ["name=total", "name"],
+        ["css=#total", "css:finder"],
+        ["xpath=//input[@id='total']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "eb22caaa-3f44-4785-8e4e-d6f9b755ce83",
+      "comment": "",
+      "command": "click",
+      "target": "id=departamento_propiedad",
+      "targets": [
+        ["id=departamento_propiedad", "id"],
+        ["name=departamento_propiedad", "name"],
+        ["css=#departamento_propiedad", "css:finder"],
+        ["xpath=//select[@id='departamento_propiedad']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b94ee7db-fcdb-490f-8413-4e99fd43799b",
+      "comment": "",
+      "command": "select",
+      "target": "id=departamento_propiedad",
+      "targets": [],
+      "value": "label=San Miguel"
+    }, {
+      "id": "5c8a7833-f100-489f-b028-91b526dcf70e",
+      "comment": "",
+      "command": "click",
+      "target": "id=municipio_propiedad",
+      "targets": [
+        ["id=municipio_propiedad", "id"],
+        ["name=municipio_propiedad", "name"],
+        ["css=#municipio_propiedad", "css:finder"],
+        ["xpath=//select[@id='municipio_propiedad']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec0b7906-5299-49b7-8e63-69182939a9ad",
+      "comment": "",
+      "command": "select",
+      "target": "id=municipio_propiedad",
+      "targets": [],
+      "value": "label=San Miguel"
+    }, {
+      "id": "c34ac840-c53f-4489-ae8e-d5dd8df76ff2",
+      "comment": "",
+      "command": "click",
+      "target": "id=canton_prop",
+      "targets": [
+        ["id=canton_prop", "id"],
+        ["name=canton_prop", "name"],
+        ["css=#canton_prop", "css:finder"],
+        ["xpath=//input[@id='canton_prop']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a79b442d-5caf-4d5b-a988-1fdf737eafc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(3) > #acceso",
+      "targets": [
+        ["css=.form-group:nth-child(3) > #acceso", "css:finder"],
+        ["xpath=(//input[@id='acceso'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a192f818-0d1e-4826-a800-16041fbcfc23",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(3) > #acceso",
+      "targets": [
+        ["css=.form-group:nth-child(3) > #acceso", "css:finder"],
+        ["xpath=(//input[@id='acceso'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Entrada principal"
+    }, {
+      "id": "6a225c8c-5111-46b3-bf6e-96127f968c57",
+      "comment": "",
+      "command": "click",
+      "target": "id=justificacion8",
+      "targets": [
+        ["id=justificacion8", "id"],
+        ["css=#justificacion8", "css:finder"],
+        ["xpath=//input[@id='justificacion8']", "xpath:attributes"],
+        ["xpath=//div/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3447be2f-e406-42f1-8c0e-6ee49f5c33fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar Solicitud')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "666d9ac2-e78e-482d-ba32-691a8a56dd9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-link",
+      "targets": [
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarNav']/ul/li[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c91c1861-946f-47f7-bec6-9905f48e8017",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77c4b5fd-7767-40bf-8ce0-1a4cd9355033",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae05cd88-431e-44dc-bad3-9cc740002526",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "EL001"
+    }, {
+      "id": "ddb2af88-815b-4b81-83a0-c5d2de5c7347",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "002abfc7-ae37-47b2-b77e-3836bd6be903",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Siforest123"
+    }, {
+      "id": "bc9d7b98-624a-4143-b9f2-d59ddee93643",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Iniciar Sesión']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b86cf3a4-7ecb-4760-a7fd-9694833489e7",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/admin/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "340d030c-3f9d-44f0-b884-f5b0aa288916",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Mapa de Solicitudes",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "d26e0f96-27c3-49a6-b3ab-e7b9585d662f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mapa de Solicitudes",
+      "targets": [
+        ["linkText=Mapa de Solicitudes", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='sidebar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/admin/solicitudes/mapa')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Mapa de Solicitudes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b02ae00f-5ebb-4905-bdf0-93cb5e738620",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/admin/solicitudes/mapa",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "571fe061-69dc-4a91-8345-cb47eff580d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leaflet-marker-icon > div",
+      "targets": [
+        ["css=.leaflet-marker-icon > div", "css:finder"],
+        ["xpath=//div[@id='map']/div/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcfaa9e9-ad2d-4ba6-948e-27a444d21087",
+      "comment": "",
+      "command": "click",
+      "target": "id=map",
+      "targets": [
+        ["id=map", "id"],
+        ["css=#map", "css:finder"],
+        ["xpath=//div[@id='map']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8348bd77-645e-4fb8-b27b-e6a94708add4",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=map",
+      "targets": [
+        ["id=map", "id"],
+        ["css=#map", "css:finder"],
+        ["xpath=//div[@id='map']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87be9f8c-7dd6-4d92-92b6-0917a2173d05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leaflet-marker-icon:nth-child(3)",
+      "targets": [
+        ["css=.leaflet-marker-icon:nth-child(3)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn-icons-png.flaticon.com/512/2211/2211986.png')]", "xpath:img"],
+        ["xpath=//div[@id='map']/div/div[4]/img[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/img[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71fdb264-a858-4c69-9358-b3d9eba01fed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leaflet-marker-icon:nth-child(3)",
+      "targets": [
+        ["css=.leaflet-marker-icon:nth-child(3)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn-icons-png.flaticon.com/512/2211/2211986.png')]", "xpath:img"],
+        ["xpath=//div[@id='map']/div/div[4]/img[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/img[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3699f0bc-c27a-4f7f-a012-32efc80f45c8",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.leaflet-marker-icon:nth-child(3)",
+      "targets": [
+        ["css=.leaflet-marker-icon:nth-child(3)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn-icons-png.flaticon.com/512/2211/2211986.png')]", "xpath:img"],
+        ["xpath=//div[@id='map']/div/div[4]/img[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/img[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b0b8305-1bad-4824-9b8c-258f34057c0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leaflet-marker-icon:nth-child(3)",
+      "targets": [
+        ["css=.leaflet-marker-icon:nth-child(3)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn-icons-png.flaticon.com/512/2211/2211986.png')]", "xpath:img"],
+        ["xpath=//div[@id='map']/div/div[4]/img[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/img[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2882c35f-1426-4b09-87aa-2411e912572d",
+    "name": "Pruebas de Integración - Caso 2",
+    "commands": [{
+      "id": "068874d2-a8a6-40b5-9676-53c392ab4fbe",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59578f12-0e5c-43e5-a937-a9cebc1a904f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "204f4dc2-6d06-4613-aa72-642622a83dd0",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82906c1f-7346-4a05-b5bc-e7371029f76b",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "EL001"
+    }, {
+      "id": "44db3a40-41d2-4bb2-ac6b-bfecb145e139",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95fe09d6-472a-4575-bc49-66fff2225d68",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Siforest123"
+    }, {
+      "id": "66f7b10a-8ae8-4f34-a559-442f9b273765",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Iniciar Sesión']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1d997eb-8a07-4668-8ccf-157366074048",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/admin/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b2cf5de-96e2-411d-9e65-b1349e100921",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Solicitudes",
+      "targets": [
+        ["linkText=Solicitudes", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='sidebar']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/admin/solicitudes')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Solicitudes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf99d4ec-b648-4481-8483-639045afdc19",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/admin/solicitudes",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e7d6b03-766a-4119-b48e-c1db4269c75f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-check",
+      "targets": [
+        ["css=.fa-check", "css:finder"],
+        ["xpath=//div[@id='pendientes']/div/div[2]/table/tbody/tr/td[4]/form[2]/button/i", "xpath:idRelative"],
+        ["xpath=//form[2]/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "686444a8-5753-4465-b92b-c5561b27a672",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar sesión",
+      "targets": [
+        ["linkText=Cerrar sesión", "linkText"],
+        ["css=.d-flex > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar sesión')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"event.preventDefault(); document.getElementById('logout-form').submit();\"]", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cba9d5d7-37bd-4f4d-a383-a71e9bcfff8e",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bea4c757-1dc5-4f42-9e20-a7747c96d743",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0d7d7f7-bc31-405f-9de1-7451494d7853",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "BI274"
+    }, {
+      "id": "656430e4-e868-4e18-9c3f-98b63e551478",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a71539c7-bb6c-41aa-9586-d0ec3822f17d",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "rrPxQr9U"
+    }, {
+      "id": "305f18cb-908e-4224-9842-945aefc5ff65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Iniciar Sesión']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2724bec3-5afa-4b59-a4e3-ff18f077781c",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/user/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "478af2be-875e-41bb-aa91-fd3bbc609f13",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Solicitudes",
+      "targets": [
+        ["linkText=Solicitudes", "linkText"],
+        ["css=.me-2:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Solicitudes')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/solicitudes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Solicitudes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00828423-aa49-462c-be63-4a5fa10e8ee1",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/solicitudes",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae32148f-5691-4eb7-a51a-ace56da2b885",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=tr:nth-child(5) .badge",
+      "targets": [],
+      "value": "Aprobado"
+    }]
+  }, {
+    "id": "bd23a12e-46eb-4ea8-80be-c7f4ebf8b51e",
+    "name": "Pruebas de Aceptación - Caso 1",
+    "commands": [{
+      "id": "84496ed1-33ad-460a-8c8c-534a46dc2ccb",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c384e8b4-0701-4dfc-9ecf-52d108bf9241",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8280a800-e147-47bb-9a44-6bf96f1497aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9ebdca1-7b4f-42b5-a580-f783c7ea8c0f",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "BI274"
+    }, {
+      "id": "1c090c66-a7ba-444d-a87f-906393d36df0",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6ff7a1-fc23-4d18-ab03-7c26f0e054c2",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "rrPxQr9U"
+    }, {
+      "id": "c850bb3e-7888-4334-9142-c07bcd93eece",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Iniciar Sesión']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd5bda77-4321-444d-b460-630f2688777a",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/user/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc937588-4321-4b8c-b39d-7dc02423216e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Solicitudes",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "45fe8b32-c78a-4091-8ab2-5fae2556e29d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Solicitudes",
+      "targets": [
+        ["linkText=Solicitudes", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='sidebar']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/admin/solicitudes')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Solicitudes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3602cba3-3d7d-40cd-8256-848e7e3e25f9",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/solicitudes",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6b9422e-530c-40fd-a7a2-14d6ecb53de8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Crear Formulario",
+      "targets": [
+        ["linkText=Crear Formulario", "linkText"],
+        ["css=.btn-primary:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/solicitudes/formulario')]", "xpath:href"],
+        ["xpath=//body/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Crear Formulario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ac3b6e5-5f94-449c-9262-fa0d338ae6b5",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/solicitudes/formulario",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81df425e-ac42-4171-9f67-b8450c315465",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-10",
+      "targets": [
+        ["css=.col-md-10", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00d3073b-63e0-47c8-be48-02c82a0120fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=expediente_r",
+      "targets": [
+        ["id=expediente_r", "id"],
+        ["name=expediente_r", "name"],
+        ["css=#expediente_r", "css:finder"],
+        ["xpath=//input[@id='expediente_r']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32c3ac92-595f-4f31-a82e-c6c1b0276ee1",
+      "comment": "",
+      "command": "type",
+      "target": "id=expediente_r",
+      "targets": [
+        ["id=expediente_r", "id"],
+        ["name=expediente_r", "name"],
+        ["css=#expediente_r", "css:finder"],
+        ["xpath=//input[@id='expediente_r']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "6"
+    }, {
+      "id": "0275a37d-c67e-4cb5-837d-5a0126640db7",
+      "comment": "",
+      "command": "click",
+      "target": "id=fecha_solicitud",
+      "targets": [
+        ["id=fecha_solicitud", "id"],
+        ["name=fecha_solicitud", "name"],
+        ["css=#fecha_solicitud", "css:finder"],
+        ["xpath=//input[@id='fecha_solicitud']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f65d9799-a207-4a8f-bc10-07b362e8c270",
+      "comment": "",
+      "command": "type",
+      "target": "id=fecha_solicitud",
+      "targets": [
+        ["id=fecha_solicitud", "id"],
+        ["name=fecha_solicitud", "name"],
+        ["css=#fecha_solicitud", "css:finder"],
+        ["xpath=//input[@id='fecha_solicitud']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2024-11-25"
+    }, {
+      "id": "da9b7595-847d-4122-854d-4c3816e1c535",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a476e8da-c33a-446a-8bba-0cbe72bde1d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//fieldset/div/input", "xpath:position"]
+      ],
+      "value": "Alexa Guerrero Vicente"
+    }, {
+      "id": "9a08be84-8455-4a6c-914a-da1ee607fa6b",
+      "comment": "",
+      "command": "click",
+      "target": "id=nit",
+      "targets": [
+        ["id=nit", "id"],
+        ["name=nit", "name"],
+        ["css=#nit", "css:finder"],
+        ["xpath=//input[@id='nit']", "xpath:attributes"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49f96515-9776-4a07-8b4b-4fab523e8feb",
+      "comment": "",
+      "command": "type",
+      "target": "id=nit",
+      "targets": [
+        ["id=nit", "id"],
+        ["name=nit", "name"],
+        ["css=#nit", "css:finder"],
+        ["xpath=//input[@id='nit']", "xpath:attributes"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1217-200993-098-2"
+    }, {
+      "id": "c10dad2e-060d-48c8-9721-844662e29d09",
+      "comment": "",
+      "command": "click",
+      "target": "id=dui",
+      "targets": [
+        ["id=dui", "id"],
+        ["name=dui", "name"],
+        ["css=#dui", "css:finder"],
+        ["xpath=//input[@id='dui']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc1d58f1-a608-445a-b7fd-4cbf6f298813",
+      "comment": "",
+      "command": "type",
+      "target": "id=dui",
+      "targets": [
+        ["id=dui", "id"],
+        ["name=dui", "name"],
+        ["css=#dui", "css:finder"],
+        ["xpath=//input[@id='dui']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "05074078-5"
+    }, {
+      "id": "ce4a9152-fabf-458f-9d88-a20daffc9b0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=emitido_en",
+      "targets": [
+        ["id=emitido_en", "id"],
+        ["name=emitido_en", "name"],
+        ["css=#emitido_en", "css:finder"],
+        ["xpath=//input[@id='emitido_en']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8584e2b-1aaf-4ee1-bdc1-1a60771ac90c",
+      "comment": "",
+      "command": "type",
+      "target": "id=emitido_en",
+      "targets": [
+        ["id=emitido_en", "id"],
+        ["name=emitido_en", "name"],
+        ["css=#emitido_en", "css:finder"],
+        ["xpath=//input[@id='emitido_en']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "San Miguel"
+    }, {
+      "id": "df71d60c-cbc3-44f8-bfc6-655df3a07a87",
+      "comment": "",
+      "command": "click",
+      "target": "id=fecha_emision",
+      "targets": [
+        ["id=fecha_emision", "id"],
+        ["name=fecha_emision", "name"],
+        ["css=#fecha_emision", "css:finder"],
+        ["xpath=//input[@id='fecha_emision']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25ee49c8-b6c7-4be8-a6d3-21a0b6b2735f",
+      "comment": "",
+      "command": "type",
+      "target": "id=fecha_emision",
+      "targets": [
+        ["id=fecha_emision", "id"],
+        ["name=fecha_emision", "name"],
+        ["css=#fecha_emision", "css:finder"],
+        ["xpath=//input[@id='fecha_emision']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "1993-09-20"
+    }, {
+      "id": "5c9eb4f2-cccb-4476-8595-bb2b92d19ad3",
+      "comment": "",
+      "command": "click",
+      "target": "id=departamento_solicitante",
+      "targets": [
+        ["id=departamento_solicitante", "id"],
+        ["name=departamento_solicitante", "name"],
+        ["css=#departamento_solicitante", "css:finder"],
+        ["xpath=//select[@id='departamento_solicitante']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6daedc2a-e9d7-46c7-9d9e-4270eab71397",
+      "comment": "",
+      "command": "select",
+      "target": "id=departamento_solicitante",
+      "targets": [],
+      "value": "label=San Miguel"
+    }, {
+      "id": "58ca41f5-8ee3-42ca-981b-e297b30f1436",
+      "comment": "",
+      "command": "click",
+      "target": "id=municipio_solicitante",
+      "targets": [
+        ["id=municipio_solicitante", "id"],
+        ["name=municipio_solicitante", "name"],
+        ["css=#municipio_solicitante", "css:finder"],
+        ["xpath=//select[@id='municipio_solicitante']", "xpath:attributes"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f78ae21-abdc-491e-ad6f-2bcb014efaae",
+      "comment": "",
+      "command": "select",
+      "target": "id=municipio_solicitante",
+      "targets": [],
+      "value": "label=Moncagua"
+    }, {
+      "id": "c87d08f3-850a-4ced-ae32-fe0f4e1c6a0e",
+      "comment": "",
+      "command": "click",
+      "target": "id=canton",
+      "targets": [
+        ["id=canton", "id"],
+        ["name=canton", "name"],
+        ["css=#canton", "css:finder"],
+        ["xpath=//input[@id='canton']", "xpath:attributes"],
+        ["xpath=//div[3]/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c942a55-467d-4ad9-9102-7e80a2f6a07a",
+      "comment": "",
+      "command": "type",
+      "target": "id=canton",
+      "targets": [
+        ["id=canton", "id"],
+        ["name=canton", "name"],
+        ["css=#canton", "css:finder"],
+        ["xpath=//input[@id='canton']", "xpath:attributes"],
+        ["xpath=//div[3]/div[3]/input", "xpath:position"]
+      ],
+      "value": "Lomitas"
+    }, {
+      "id": "71100fef-159b-4336-aebe-e54ac8fd86b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-row:nth-child(5)",
+      "targets": [
+        ["css=.form-row:nth-child(5)", "css:finder"],
+        ["xpath=//fieldset/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "285129d3-03a6-431b-9d06-0feb82f1e4b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a60371c-5517-40cc-b612-1b4708cc9875",
+      "comment": "",
+      "command": "click",
+      "target": "id=acceso",
+      "targets": [
+        ["id=acceso", "id"],
+        ["name=acceso", "name"],
+        ["css=.form-group:nth-child(8) > #acceso", "css:finder"],
+        ["xpath=//input[@id='acceso']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2f81065-994e-46fb-9a87-9a3ea4e2f0e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=acceso",
+      "targets": [
+        ["id=acceso", "id"],
+        ["name=acceso", "name"],
+        ["css=.form-group:nth-child(8) > #acceso", "css:finder"],
+        ["xpath=//input[@id='acceso']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8321335b-1172-404c-8823-1053eb464bcb",
+      "comment": "",
+      "command": "type",
+      "target": "id=acceso",
+      "targets": [
+        ["id=acceso", "id"],
+        ["name=acceso", "name"],
+        ["css=.form-group:nth-child(8) > #acceso", "css:finder"],
+        ["xpath=//input[@id='acceso']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Entrada principal"
+    }, {
+      "id": "f3b2cb16-dd98-4392-a377-172e9d2ffc89",
+      "comment": "",
+      "command": "click",
+      "target": "id=direccion",
+      "targets": [
+        ["id=direccion", "id"],
+        ["name=direccion", "name"],
+        ["css=#direccion", "css:finder"],
+        ["xpath=//input[@id='direccion']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e352224d-5660-4f5a-addd-66a0b875092e",
+      "comment": "",
+      "command": "type",
+      "target": "id=direccion",
+      "targets": [
+        ["id=direccion", "id"],
+        ["name=direccion", "name"],
+        ["css=#direccion", "css:finder"],
+        ["xpath=//input[@id='direccion']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "Moncagua, San Miguel Centro"
+    }, {
+      "id": "dde54f0d-8b44-42af-b08f-b19332789a03",
+      "comment": "",
+      "command": "click",
+      "target": "id=telefono_fijo",
+      "targets": [
+        ["id=telefono_fijo", "id"],
+        ["name=telefono_fijo", "name"],
+        ["css=#telefono_fijo", "css:finder"],
+        ["xpath=//input[@id='telefono_fijo']", "xpath:attributes"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59864937-51b9-41a5-89ac-778c671edaac",
+      "comment": "",
+      "command": "type",
+      "target": "id=telefono_fijo",
+      "targets": [
+        ["id=telefono_fijo", "id"],
+        ["name=telefono_fijo", "name"],
+        ["css=#telefono_fijo", "css:finder"],
+        ["xpath=//input[@id='telefono_fijo']", "xpath:attributes"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "29847982"
+    }, {
+      "id": "88d33763-2543-43e6-a24a-bb2df06e2475",
+      "comment": "",
+      "command": "click",
+      "target": "id=celular",
+      "targets": [
+        ["id=celular", "id"],
+        ["name=celular", "name"],
+        ["css=#celular", "css:finder"],
+        ["xpath=//input[@id='celular']", "xpath:attributes"],
+        ["xpath=//div[7]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68a60b8f-062b-4f0e-9413-0881eefb6dee",
+      "comment": "",
+      "command": "type",
+      "target": "id=celular",
+      "targets": [
+        ["id=celular", "id"],
+        ["name=celular", "name"],
+        ["css=#celular", "css:finder"],
+        ["xpath=//input[@id='celular']", "xpath:attributes"],
+        ["xpath=//div[7]/div[2]/input", "xpath:position"]
+      ],
+      "value": "72552913"
+    }, {
+      "id": "e64ea595-d419-4492-82c0-7e45edacbcf5",
+      "comment": "",
+      "command": "click",
+      "target": "id=correo",
+      "targets": [
+        ["id=correo", "id"],
+        ["name=correo", "name"],
+        ["css=#correo", "css:finder"],
+        ["xpath=//input[@id='correo']", "xpath:attributes"],
+        ["xpath=//div[7]/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b00bf641-b454-4f1c-aca9-9785b676273b",
+      "comment": "",
+      "command": "type",
+      "target": "id=correo",
+      "targets": [
+        ["id=correo", "id"],
+        ["name=correo", "name"],
+        ["css=#correo", "css:finder"],
+        ["xpath=//input[@id='correo']", "xpath:attributes"],
+        ["xpath=//div[7]/div[3]/input", "xpath:position"]
+      ],
+      "value": "allison_guerrero@gmail.com"
+    }, {
+      "id": "3067e427-bcb0-4dff-9f2a-7d0dc5e7600a",
+      "comment": "",
+      "command": "click",
+      "target": "id=especie",
+      "targets": [
+        ["id=especie", "id"],
+        ["name=especie", "name"],
+        ["css=#especie", "css:finder"],
+        ["xpath=//input[@id='especie']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3ac9362-6fda-4ad2-b65f-af76e1cd0cc1",
+      "comment": "",
+      "command": "type",
+      "target": "id=especie",
+      "targets": [
+        ["id=especie", "id"],
+        ["name=especie", "name"],
+        ["css=#especie", "css:finder"],
+        ["xpath=//input[@id='especie']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Limonero"
+    }, {
+      "id": "a8cd8794-88be-4bfe-b677-a23e88054479",
+      "comment": "",
+      "command": "click",
+      "target": "id=cantidad",
+      "targets": [
+        ["id=cantidad", "id"],
+        ["name=cantidad", "name"],
+        ["css=#cantidad", "css:finder"],
+        ["xpath=//input[@id='cantidad']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53ade030-f50f-4205-a507-d927bd049b91",
+      "comment": "",
+      "command": "type",
+      "target": "id=cantidad",
+      "targets": [
+        ["id=cantidad", "id"],
+        ["name=cantidad", "name"],
+        ["css=#cantidad", "css:finder"],
+        ["xpath=//input[@id='cantidad']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "e5a87188-e723-4a08-81fa-3b4cca2edbad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border > p",
+      "targets": [
+        ["css=.border > p", "css:finder"],
+        ["xpath=//fieldset[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'*Si son más especies, completar el siguiente cuadro.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ceafca5-c0e1-48b4-bb40-8438805118fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=total",
+      "targets": [
+        ["id=total", "id"],
+        ["name=total", "name"],
+        ["css=#total", "css:finder"],
+        ["xpath=//input[@id='total']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4e139a8-bc59-4e49-afe1-d61a737545c3",
+      "comment": "",
+      "command": "type",
+      "target": "id=total",
+      "targets": [
+        ["id=total", "id"],
+        ["name=total", "name"],
+        ["css=#total", "css:finder"],
+        ["xpath=//input[@id='total']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "52accc66-afea-4b3c-a9f0-4de755b7eafe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border:nth-child(5) > .form-row",
+      "targets": [
+        ["css=.border:nth-child(5) > .form-row", "css:finder"],
+        ["xpath=//fieldset[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc4788af-1825-4644-875e-fd545289986b",
+      "comment": "",
+      "command": "click",
+      "target": "id=departamento_propiedad",
+      "targets": [
+        ["id=departamento_propiedad", "id"],
+        ["name=departamento_propiedad", "name"],
+        ["css=#departamento_propiedad", "css:finder"],
+        ["xpath=//select[@id='departamento_propiedad']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9948c86-113e-4b11-b3be-b069b528d138",
+      "comment": "",
+      "command": "select",
+      "target": "id=departamento_propiedad",
+      "targets": [],
+      "value": "label=San Miguel"
+    }, {
+      "id": "b97ab04c-8980-4e8b-9bf5-5bc68e0f4c90",
+      "comment": "",
+      "command": "click",
+      "target": "id=municipio_propiedad",
+      "targets": [
+        ["id=municipio_propiedad", "id"],
+        ["name=municipio_propiedad", "name"],
+        ["css=#municipio_propiedad", "css:finder"],
+        ["xpath=//select[@id='municipio_propiedad']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "184bc7a1-8415-4d43-bc2d-5861c05d173a",
+      "comment": "",
+      "command": "select",
+      "target": "id=municipio_propiedad",
+      "targets": [],
+      "value": "label=Moncagua"
+    }, {
+      "id": "2eec60e1-0907-43fa-850b-5806b166784d",
+      "comment": "",
+      "command": "click",
+      "target": "id=canton_prop",
+      "targets": [
+        ["id=canton_prop", "id"],
+        ["name=canton_prop", "name"],
+        ["css=#canton_prop", "css:finder"],
+        ["xpath=//input[@id='canton_prop']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18a43f34-36cc-471a-9faf-8acbf9260713",
+      "comment": "",
+      "command": "type",
+      "target": "id=canton_prop",
+      "targets": [
+        ["id=canton_prop", "id"],
+        ["name=canton_prop", "name"],
+        ["css=#canton_prop", "css:finder"],
+        ["xpath=//input[@id='canton_prop']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "Lomitas"
+    }, {
+      "id": "6cbd5144-3d4a-4f8c-bd9f-880aea53ac9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(3) > #acceso",
+      "targets": [
+        ["css=.form-group:nth-child(3) > #acceso", "css:finder"],
+        ["xpath=(//input[@id='acceso'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0ebaa2b-ec86-44b4-8f30-5527a507661f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(3) > #acceso",
+      "targets": [
+        ["css=.form-group:nth-child(3) > #acceso", "css:finder"],
+        ["xpath=(//input[@id='acceso'])[2]", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Entrada principal"
+    }, {
+      "id": "2285e867-290a-4ae0-a68b-16bb5b4dfc8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=justificacion8",
+      "targets": [
+        ["id=justificacion8", "id"],
+        ["css=#justificacion8", "css:finder"],
+        ["xpath=//input[@id='justificacion8']", "xpath:attributes"],
+        ["xpath=//div/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e569355e-c1af-481f-b51b-dc1b550862ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar Solicitud')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b2260fd-c821-4d31-837b-398b86960973",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=swal2-html-container",
+      "targets": [
+        ["id=swal2-html-container", "id"],
+        ["css=#swal2-html-container", "css:finder"],
+        ["xpath=//div[@id='swal2-html-container']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Solicitud enviada y está en revisión."
+    }, {
+      "id": "d51ba33c-189f-46f3-96c4-760fb5bad2c3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.bg-warning",
+      "targets": [],
+      "value": "En Revisión"
+    }]
+  }, {
+    "id": "5a003751-06d0-48f7-92f8-1ef94b46748f",
+    "name": "Pruebas de Aceptación - Caso 2",
+    "commands": [{
+      "id": "ba19b24b-8f3e-448b-9418-eb5852b56d39",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d8ef75a-4141-4716-8099-c1044ea4d8ee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91fcff00-f110-4e81-b2aa-95e0484ebd81",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b105aa09-731c-40b8-9775-7e3f13a410b5",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "EL001"
+    }, {
+      "id": "c1afa667-7a59-4363-8783-bbb1ada5fddc",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89e69d14-6b8b-491b-a097-5104a8212ddf",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Siforest123"
+    }, {
+      "id": "69542f0f-7156-4f14-97d4-eb182e4c5782",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Iniciar Sesión']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1844ea26-0474-425b-88a9-c055584ef8cf",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/admin/solicitudes",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e9ef843-b973-4cde-bc13-47b70dc61f3a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Solicitudes",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "b24edb35-bf6e-4a31-89ad-51f3cef85938",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Solicitudes",
+      "targets": [
+        ["linkText=Solicitudes", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='sidebar']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/admin/solicitudes')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Solicitudes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b1e0a51-7370-413e-bf73-f165e8c870c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td > .btn",
+      "targets": [
+        ["css=tr:nth-child(2) > td > .btn", "css:finder"],
+        ["xpath=//button[@onclick='mostrarMotivoRechazo(24)']", "xpath:attributes"],
+        ["xpath=//div[@id='pendientes']/div/div[2]/table/tbody/tr[2]/td[4]/button", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9344116e-bfff-431c-831a-12f1ead29b4b",
+      "comment": "",
+      "command": "click",
+      "target": "id=motivo_rechazo",
+      "targets": [
+        ["id=motivo_rechazo", "id"],
+        ["name=motivo_rechazo", "name"],
+        ["css=#motivo_rechazo", "css:finder"],
+        ["xpath=//textarea[@id='motivo_rechazo']", "xpath:attributes"],
+        ["xpath=//form[@id='rechazar-form']/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7352848c-81cf-403b-8c57-977ca8097b88",
+      "comment": "",
+      "command": "type",
+      "target": "id=motivo_rechazo",
+      "targets": [
+        ["id=motivo_rechazo", "id"],
+        ["name=motivo_rechazo", "name"],
+        ["css=#motivo_rechazo", "css:finder"],
+        ["xpath=//textarea[@id='motivo_rechazo']", "xpath:attributes"],
+        ["xpath=//form[@id='rechazar-form']/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Falta descripción del arbol"
+    }, {
+      "id": "4bc74a6d-8114-43a6-8c7c-461c0d57172c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-3:nth-child(3)",
+      "targets": [
+        ["css=.mt-3:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[12]", "xpath:attributes"],
+        ["xpath=//form[@id='rechazar-form']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d6e81b0-a379-4716-9bc1-23d4a9a5a802",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar sesión",
+      "targets": [
+        ["linkText=Cerrar sesión", "linkText"],
+        ["css=.d-flex > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar sesión')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"event.preventDefault(); document.getElementById('logout-form').submit();\"]", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0af714a-148a-4bff-a263-8093fed19ad6",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "256229b8-2700-4114-962b-eb5ebe6e93e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8db1852-83aa-4fe6-8ee5-105c8834665c",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "BI274"
+    }, {
+      "id": "f930c13a-e312-4f8c-88c3-2b7a5e292fb8",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "212b4f60-67e5-4c16-91fd-bf897a303f60",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "rrPxQr9U"
+    }, {
+      "id": "5ce7470c-f9d0-4a4c-838c-edc793e23b86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Iniciar Sesión']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "892bccb2-8df4-4f72-8485-bb54bb4bc35d",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/user/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9455af6-aedc-4ef0-bc0f-859bc1c8eb6f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Solicitudes",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "93b94cce-6472-4d96-be93-275a9c4d863e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Solicitudes",
+      "targets": [
+        ["linkText=Solicitudes", "linkText"],
+        ["css=.me-2:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Solicitudes')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/solicitudes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Solicitudes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14fc5c01-fe3f-46e4-91f5-697819de5196",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/solicitudes",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1359a327-5f29-46f0-886e-84df514ca502",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.card-body",
+      "targets": [
+        ["css=.card-body", "css:finder"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": "1302.5911560058594,238.8854217529297"
+    }, {
+      "id": "470b7395-6ed0-4218-9188-152d8f4e9eb5",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.card-body",
+      "targets": [
+        ["css=.card-body", "css:finder"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": "1302.5911560058594,238.8854217529297"
+    }, {
+      "id": "209be8a0-260b-435e-8d2c-59af6c4155c7",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.card-body",
+      "targets": [
+        ["css=.card-body", "css:finder"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": "1302.5911560058594,238.8854217529297"
+    }, {
+      "id": "f0eab277-e419-472c-9a18-c0d2d96921bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=tr:nth-child(9) .btn-info",
+      "targets": [
+        ["css=tr:nth-child(9) .btn-info", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/solicitudes/formulario/24')]", "xpath:href"],
+        ["xpath=//tr[9]/td[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eb49a4d-cdec-4a63-a4d2-fa3e4ceb6d33",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.bg-danger",
+      "targets": [],
+      "value": "Rechazado"
+    }, {
+      "id": "4096440a-b386-4fd9-aebf-688511009948",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fa-info-circle",
+      "targets": [
+        ["css=.fa-info-circle", "css:finder"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dbac6323-5604-4c80-b841-b84ead7994dc",
+    "name": "Pruebas de Aceptación - Caso 3",
+    "commands": [{
+      "id": "5eeed5d9-fe7f-41a0-8b0d-75d66141c576",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8b82e60-b88e-4401-a5ac-66517cf6ec5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4f954be-b668-407b-88e8-7fc86168f9c4",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "BI274"
+    }, {
+      "id": "ae60c61c-75e9-4a6b-964e-f222ca504c72",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a62acaf-76eb-4770-910e-698dd9f65757",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=password", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "rrPxQr9U"
+    }, {
+      "id": "e0ece8f3-b54e-4150-a6b1-71e19770999a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@value='Iniciar Sesión']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f64832b-4d4c-4c82-8213-844dcf1891da",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/user/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fde860c0-53d2-4049-9446-0c1104642b88",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Solicitudes",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "06f0d876-0c91-4635-8b5e-5bcf885b5d3d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Solicitudes",
+      "targets": [
+        ["linkText=Solicitudes", "linkText"],
+        ["css=.me-2:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Solicitudes')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/solicitudes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Solicitudes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8601b30-b1e3-4e6c-8ed1-81e18a8a85af",
+      "comment": "",
+      "command": "open",
+      "target": "https://siforest-production-0ade.up.railway.app/solicitudes",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb65ee64-86e1-4c64-9396-7df4b6552f3b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Imprimir",
+      "targets": [
+        ["linkText=Imprimir", "linkText"],
+        ["css=tr:nth-child(1) .btn-warning", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://siforest-production-0ade.up.railway.app/solicitudes/solicitud/4/pdf')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,' Imprimir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eaf99b63-b128-4e4d-ace9-e5e665f44ed6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9325156c-0647-449c-9a1e-e74a7326a6c9"]
+  }],
+  "urls": ["https://siforest-production-0ade.up.railway.app/", "https://siforest-production-0ade.up.railway.app/user/dashboard", "https://siforest-production-0ade.up.railway.app/solicitudes", "https://siforest-production-0ade.up.railway.app/admin/dashboard", "https://siforest-production-0ade.up.railway.app/login"],
+  "plugins": []
+}

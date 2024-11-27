@@ -1,0 +1,1 @@
+El archivo es con extensión .side ya que fue trabajado en Selenium IDE, seguir los pasos de instalación de Selenium IDE en el plan de pruebas, dar click en la opción de "abrir proyecto" y buscar dicho archivo PruebasSifores.side
